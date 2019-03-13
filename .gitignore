@@ -165,3 +165,4 @@ tags
 [._]*.un~
 
 # End of https://www.gitignore.io/api/c,vim,osx,c++,macos,linux,cmake
+build/
