@@ -3,7 +3,7 @@
 
 void process_line(std::string const& line, size_t length = 72)
 {
-  if (line.size() < length) {
+  if (line.size() < length || line.at(0) == '*') {
     std::cout << line << '\n';
   } else {
     auto pos = 0;
